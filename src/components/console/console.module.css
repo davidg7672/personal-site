@@ -1,0 +1,46 @@
+.console {
+    margin: 40px;
+    margin-top: 20px;
+    padding: 30px;
+    overflow-y: auto;
+    line-height: 22px;
+    height: 390px;
+    width: 550px;
+    font-size: 90%;
+    font-family: Monaco, monospace;
+    border-top: 20px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #2a2d34;
+    box-shadow: 12px 12px 1px #d7d3e7;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.firstColor {
+    color: #ac78c2;
+}
+
+.secondColor {
+    color: #c5c8c6;
+}
+
+.thirdColor {
+    color: #5888ca;
+}
+
+.fourthColor {
+    color: #f0c674;
+}
+
+.fifthColor {
+    color: #b5bd68;
+}

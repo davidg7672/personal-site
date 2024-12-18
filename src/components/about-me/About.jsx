@@ -1,15 +1,16 @@
 import React from "react";
 import classes from "./about.module.css";
 import image from "../../images/david-with-lion.png";
+import Console from "../console/Console";
 
 const About = () => {
     return (
         <>
             <main>
                 <div className={classes.container}>
-                    <div className={classes.console}></div>
+                    <Console />
                     <div className={classes.image}>
-                        <img src={image} alt="david in leavenworth" />
+                        <img src={image} alt="david with lion" />
                     </div>
                 </div>
             </main>

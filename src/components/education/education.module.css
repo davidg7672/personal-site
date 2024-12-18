@@ -1,21 +1,79 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .school {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
-    padding: 1rem;
+    gap: 1.5rem;
+    text-align: left;
+    width: 100%;
 }
 
+.logo {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.schoolName {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Coursework sections */
 .coursework {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
     flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #444;
+}
+
+.courseList {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.courseList li {
+    margin-bottom: 0.5rem;
 }
