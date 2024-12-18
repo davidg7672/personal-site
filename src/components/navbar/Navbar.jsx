@@ -5,10 +5,10 @@ const Navbar = () => {
     return (
         <>
             <div className={classes.header}>
-                <nav className={classes.container}>
+                <nav className={`${classes.container} ${classes.lato}`}>
                     <div className={classes.item}>
                         <a href="#header">
-                            <h1>David Sosa</h1>
+                            <h1 className={classes.lato}>David Sosa</h1>
                         </a>
                     </div>
                     <div className={classes.linksContainer}>

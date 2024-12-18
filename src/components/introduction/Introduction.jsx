@@ -5,11 +5,11 @@ import image from "../../images/david-in-leavenworth.png";
 
 const Introduction = () => {
     const words = [
-        "Software Developer",
-        "Runner",
-        "Traveler",
-        "Reader",
-        "Cook",
+        "I'm a Software Developer",
+        "I'm also runner",
+        "Huge music fan",
+        "Big fan of reading literature",
+        "Connoisseur of traveling the world and eating good food",
     ];
 
     return (
@@ -29,11 +29,10 @@ const Introduction = () => {
                     </div>
                     <br />
                     <div className={classes.typewriter}>
-                        <span>I'm a </span>
                         <Typewriter
                             words={words}
-                            typeSpeed={80}
-                            deleteSpeed={60}
+                            typeSpeed={150}
+                            deleteSpeed={150}
                             delaySpeed={2000}
                             loop={0}
                             cursor={true}
