@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.linksContainer > * {
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a::after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px #d3cbf5;
+    transform: scaleX(0);
+    transition: 350ms ease-in-out;
+    transform-origin: 0% 50%;
+}
